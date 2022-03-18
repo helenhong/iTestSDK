@@ -7,6 +7,7 @@
 //
 
 #import "YMViewController.h"
+#import "MyLog.h"
 
 @interface YMViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MyLog *log = [[MyLog alloc] init];
+    [log print];
 }
 
 - (void)didReceiveMemoryWarning

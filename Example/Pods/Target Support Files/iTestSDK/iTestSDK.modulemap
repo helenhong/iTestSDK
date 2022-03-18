@@ -1,0 +1,6 @@
+framework module iTestSDK {
+  umbrella header "iTestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

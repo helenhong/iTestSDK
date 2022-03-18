@@ -1,0 +1,32 @@
+{
+  "name": "iTestSDK",
+  "version": "0.1.0",
+  "summary": "A short description of iTestSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/helenhong/iTestSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "helenhong": "helenhong@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/helenhong/iTestSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "iTestSDK/Classes/**",
+  "public_header_files": "iTestSDK/Classes/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
