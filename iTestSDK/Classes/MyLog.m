@@ -6,6 +6,7 @@
 //
 
 #import "MyLog.h"
+#import <AFNetworking/AFNetworking.h>
 
 @implementation MyLog
 - (void)print {
