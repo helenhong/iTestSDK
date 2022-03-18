@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iTestSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of iTestSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'iTestSDK' => ['iTestSDK/Assets/*.png']
   # }
-
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.public_header_files = 'iTestSDK/Classes/*.h'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
